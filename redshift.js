@@ -103,7 +103,7 @@ async function runQuery(req, res, query, type) {
 }
 
 app.get('/', function(req, res) {
-    res.json({ mensaje: '¡Hola Mundo!' })   
+    res.json({ mensaje: '¡Hola Mundo! JAJAJA' })   
   })
 
 app.get('/api/testRedshiftConnection', (req, res) => {
